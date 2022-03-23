@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop instant healthy drinkson Instant Nutrition</title>
+    
+    <!--Main CSS-->
+    <link rel="stylesheet" href="css/mian.css">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+    crossorigin="anonymous">
+    <!--Font awesome-->
+    <script src="https://use.fontawesome.com/fbaee93a28.js"></script>
+    
+</head>
+<body>
+    <header>
+         <!--****************Navigation******************-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Instant Nutrition</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse ml-4" id="menu">
+          <ul class="navbar-nav mr-auto ml-4">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+      
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html" >Shop<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item cart-icon">
+              <a class="nav-link" ><i class="fa fa-shopping-cart basket">
+                <div class="cart-items">0</div></i></a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <i class="fa fa-envelope-square"></i>
+            instantnutrition@mail.com
+          </span>
+          <span class="navbar-text mr-4 ml-3">
+            <i class="fa fa-phone"></i>
+            0812345678
+          </span>
+          
+        </div>
+      </nav>
+    </header>
+    <main id="shop">
+      <section id="products">
+        <div class="container">
+          <h1>PRODUCTS</h1>
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <img src="images/formula-1-spiced-apple-550g.jpg" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title">Formula 1 Shake Mix Spiced Apple Flavoured </h2>
+                <h3>R120.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent1()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="1"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+            <!--*********************second***************************-->
+            <div class="col-sm-6 col-md-4">
+              <img src="images/shake-mintchoco.jpg" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title">Formula 1 Shake Mix mint & chocolate Flavoured </h2>
+                <h3>R120.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent2()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="2"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+            <!--*********************third***************************-->
+            <div class="col-sm-6 col-md-4">
+              <img src="images/instant-herbal-beverage-original-100g.png" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title"> Instant herbal original flavoured </h2>
+                <h3>R85.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent3()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="3"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+            <!--*********************fourth***************************-->
+            <div class="col-sm-6 col-md-4">
+              <img src="images/instant-herbal-beverage-raspberry-50g.png" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title">Instant herbal beverage raspberry flavoured </h2>
+                <h3>R65.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent4()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="4"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+            <!--*********************fifth***************************-->
+            <div class="col-sm-6 col-md-4">
+              <img src="images/aloemax-473-ml.png" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title">Herbal aloe concentrate mango flavoured</h2>
+                <h3>R150.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent5()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+            <!--*********************sixth***************************-->
+            <div class="col-sm-6 col-md-4">
+              <img src="images/herbal-aloe-concentrate-mango-473-ml.jpg" alt="" srcset="">
+            </div>
+            <div class="col-sm-6 col-md-8 mt-md-5">
+              <div class="card-body">
+                <h2 class="card-title">Aloe max concentrate </h2>
+                <h3>R150.00</h3>
+                <h4>Brand: <b>Herbal Life</b></h4>
+                <a onclick="viewContent6()" id="hide-info" class="here">More Details</a>
+                <p class="card-text " id="more-info">
+                  Formula 1 is a delicious shake that provides protein and key nutrients.<br>
+                  <br>
+                  <b>Key Benefits</b><br>
+                  • Formula 1 Shake Mix is a convenient alternative to a high kilojoule breakfast, lunch or dinner<br>
+                  • *928 kJ per serving<br>
+                  • *17.6 g protein per serving<br>
+                  • ^898 kJ per serving<br>
+                  • ^15.8 g protein per serving, when made with a fortified soya beverage<br>
+                  • Source of fibre<br>
+                  • Gluten Free<br>
+                  • Suitable for vegans<br>
+                  • 24 vitamins and minerals<br>
+                  • Artificial flavourings free<br>
+                  • Quick and easy to prepare<br>
+                  • Personalise your shake with your favourite fruits, vegetables or spices<br>
+                
+                  *When made with semi-skimmed milk (1.5% fat)
+                </p>
+                <a  class="btn btn-primary bag-btn" data-id="6"><i class="fa fa-shopping-cart"></i>Add to basket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+          <div class="cart-overlay">
+            <div class="cart">
+              <span class="close-cart">
+                <i class="fa fa-window-close"></i>
+              </span>
+              <h2>Your Basket</h2>
+              <div class="cart-content">
+                <!-- Cart Item-->
+               <!-- <div class="cart-item">
+                 
+                </div>-->
+                <!-- End of Cart Item--> 
+              </div>
+              <div class="cart-footer">
+                <h3>total : R<span class="cart-total">0</span></h3>
+                <button class="btn btn-primary clear-cart mr-3"><i class="fa fa-trash"></i> Clear Basket</button>
+               <a href="checkout.html"><button class="btn btn-primary" ><i class="fa fa-credit-card-alt"></i> Checkout</button></a> 
+              </div>
+            </div>
+          </div>
+       
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2022 Instant Nutrition. All rights reserved. All images used belong to the rightful owners.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>    
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

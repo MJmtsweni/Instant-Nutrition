@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Formula 1 shake spiced apple flavoured",
+        "price": 120.00,
+        "image": { "fields": { "file": { "url": "./images/formula-1-spiced-apple-550g.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Formula 1 shake mix mint & chocolate flavoured",
+        "price": 120.00,
+        "image": { "fields": { "file": { "url": "./images/shake-mintchoco.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Instant herbal original flavoured ",
+        "price": 85.00,
+        "image": { "fields": { "file": { "url": "./images/instant-herbal-beverage-original-100g.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Instant herbal beverage raspberry flavoured",
+        "price": 65.00,
+        "image": { "fields": { "file": { "url": "./images/instant-herbal-beverage-raspberry-50g.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Herbal aloe concentrate mango flavoured",
+        "price": 150.00,
+        "image": { "fields": { "file": { "url": "./images/aloemax-473-ml.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Aloe max concentrate",
+        "price": 150.00,
+        "image": { "fields": { "file": { "url": "./images/herbal-aloe-concentrate-mango-473-ml.jpg" } } }
+      }
+    }
+  ]
+}
