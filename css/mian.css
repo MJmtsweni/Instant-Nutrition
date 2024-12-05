@@ -1,18 +1,39 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  line-height: 1.5;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 a.navbar-brand {
   color: green !important;
 }
+
 a.navbar-brand:hover {
   color: #32cd32 !important;
 }
+
 .navbar-nav .active > a.nav-link {
   color: green !important;
 }
+
 a.nav-link:hover {
   color: #32cd32 !important;
 }
+
 span.navbar-text {
   color: green !important;
 }
+
 div.cart-items {
   position: absolute;
   display: inline;
@@ -24,6 +45,7 @@ div.cart-items {
   font-size: 16px;
   border-radius: 30%;
 }
+
 img.w-100 {
   height: 100vh;
 }
@@ -46,6 +68,10 @@ img.w-100 {
   color: green;
   background-color: #fff;
   border-color: #32cd32;
+}
+
+.container-fluid {
+  padding: 0;
 }
 section#product-overview .container-fluid {
   display: flex;
@@ -153,26 +179,36 @@ section#products img {
 section#products p#more-info {
   display: none;
 }
+
 a#hide-info {
   cursor: pointer;
   color: green;
   text-decoration: underline;
 }
+
 a#hide-info:hover {
   color: #32cd32;
 }
+
 a#hide-info:active {
   content: "Less details";
 }
+
 section#products a.btn-primary {
   display: block;
   width: 60%;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1rem;
+  padding: 9px 0;
   background-color: green;
   border-color: #32cd32;
 }
+
+section#products a.btn-primary i.fa {
+  margin-right: 15px;
+}
+
 section#products a.btn-primary:hover {
   color: green;
   background-color: #fff;
